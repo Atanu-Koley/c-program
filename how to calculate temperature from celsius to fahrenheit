@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int C,F;
+printf("Enter Celsius temp =");
+scanf("%d",&C);
+
+F=((9/5)*C+32);
+
+printf("Celsius to Fahrenheit = %d",F);
+	
+	return 0;
+}
